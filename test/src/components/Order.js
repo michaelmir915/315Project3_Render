@@ -97,6 +97,7 @@ function Order({ sendToOrderPanel }) {
     return (
         <div>
             <div class="serverOrder">
+                test
                 <p class="serverOrder">Order:</p>
                 {processOrder()}
                 <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<span style={spanBottom} >{moneyFormat(window.totalCost)}</span>}</p>
